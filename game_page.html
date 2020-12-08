@@ -10,8 +10,10 @@
 
 <link rel="stylesheet" type="text/css" href="game.css">
 </head>
-<body>
-
+<body id="game_page_background">
+	<embed name="Quiz Music" src="Quizizz Synthwave music extended.mp3" loop="true" hidden="true" autostart="true">
+	</embed>
+	
 	<h4 id="player1name"></h4><span id="player1score"></span>
 	<br>
 	<h4 id="player2name"></h4><span id="player2score"></span>
@@ -27,12 +29,9 @@
 		<div id="output" class="col-lg-6"></div>
 
 
-		<br>
-		<br>
-
 		
 
-		<label>Send Your Maths Problem:</label>
+		<label id="huh">Send Your Maths Problem:</label>
 
 		<input type="text" id="number1" class="form-control" placeholder="Number1">
 
@@ -40,9 +39,9 @@
 
 		<br>
 
-		<button onclick="send()" class="btn btn-sucsess" style="width: 30%;">SEND</button>
+		<button onclick="send()" id="button_color" style="width: 30%;">SEND</button>
 
-		
+
 
 	</center>
 </div>

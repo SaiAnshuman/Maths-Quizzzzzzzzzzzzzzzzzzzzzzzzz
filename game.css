@@ -1,6 +1,19 @@
-body
+#game_page_background
 {
-	background: goldenrod;
+
+background-color: blueviolet;	
+background-image: url("waves.gif");
+background-size: cover;
+	
+}
+
+
+
+#imaeg{
+
+background-image: url("truly abstract.jpg");
+background-size: cover;
+
 }
 
 	.login_div1 , .login_div2
@@ -16,6 +29,7 @@ body
 {
 	display: inline-block;
 	margin-left: 20px;
+	color: black;
 }
 #word
 {
@@ -33,4 +47,63 @@ border-top: 10px solid #AA4465;
 padding: 10px;
 float: none;
 text-align: left;
+}
+
+#game_game
+{
+
+color: black;	
+
+}
+
+#player1score
+{
+
+	color: black;
+
+}
+
+#player2score
+{
+
+	color: black;
+
+}
+
+#player_question , #player_answer
+{
+
+color: black;	
+
+}
+
+#huh
+{
+
+color: black;
+
+}
+
+#login_div {
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+}
+
+.row {
+    margin: 20% 0% 20% 0%;
+}
+#button_color
+{
+
+background-color: salmon;
+
+}
+
+#number1{
+
+margin-bottom: 5px;
+
 }

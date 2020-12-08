@@ -12,40 +12,39 @@
 
 <script src="game_login.js"></script>
 </head>
-<body>
+	<body id="imaeg">
+		<div class="container">
+				<div class="row">
 
-	<center>
+					<div class="col-lg-6" id="login_div">
 
-	  <h1>Game</h1>
-	  
-	  <div class=" col-lg-4 col-sm-8 col-xs-11 login_div1">
+						<h1 id="game_game">Game</h1>
+		
+						<div class="login_plyr1">
 
-		 <h3>Player 1 login for the game</h3>
-		 <label>Username:</label>
-		 <input id="player1_name_input" type = "text" class="form-control" placeholder="Player1's Name">
-		 <br>
-		 <br>
-		  
-	  </div>
+							<h3>Player 1 login for the game</h3>
+							<label>Username:</label>
+							<input id="player1_name_input" type = "text" class="form-control" placeholder="Player1's Name">
+												
+						</div>
 
-		<br>
-		<br>
+						<div class="login_plyr2">
 
-		<div class=" col-lg-4 col-sm-8 col-xs-11 login_div2">
+							<h3>Player 2 login for the game</h3>
+							<label>Username:</label>
+							<input id="player2_name_input" type = "text" class="form-control" placeholder="Player2's Name">
+							
+						</div>	
 
-			<h3>Player 2 login for the game</h3>
-			<label>Username:</label>
-			<input id="player2_name_input" type = "text" class="form-control" placeholder="Player2's Name">
-			<br>
-			<br>
-			 
-		 </div>	
-		 <br>
-		 <br>
+							<button style="width:30%;" class=" btn btn-info" onclick="addUser()">Log In</button>
+					</div>
 
-		 <button style="width:30%;" class=" btn btn-info" onclick="addUser()">Log In</button>
-		   
-	</center>
+					<div class="col-lg-6">
 
-</body>
+						<img src="it pass.gif" alt="">
+				
+					</div>
+				</div>
+			</div>
+	</body>
 </html>
